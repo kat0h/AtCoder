@@ -5,7 +5,7 @@ for i in S:
     if i == "R":
         j += 1
     else:
-        j = 0
         ans = max(j, ans)
+        j = 0
 
 print(ans)
