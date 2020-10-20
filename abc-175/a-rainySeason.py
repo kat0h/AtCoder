@@ -8,4 +8,4 @@ for i in S:
         ans = max(j, ans)
         j = 0
 
-print(ans)
+print(max(ans, j))
