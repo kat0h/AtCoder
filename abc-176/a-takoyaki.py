@@ -1,4 +1,8 @@
 n, x, t = [int(i) for i in input().split(" ")]
 
-ans = (n // x+1)*t
+if (n % x) == 0:
+    ans = (n // x)*t
+else:
+    ans = (n // x+1)*t
+
 print(ans)
