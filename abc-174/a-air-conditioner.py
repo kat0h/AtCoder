@@ -1,3 +1,3 @@
 X = int(input())
 
-print(X >= 30 if "Yes" else "No")
+print("Yes") if X >= 30 else print("No")
